@@ -1,0 +1,19 @@
+#cart > div {
+  display: flex;
+  /*width: 33.33%;*/
+  /*border: 1px solid red;*/
+  padding: 10px;
+  margin: 20px;
+  justify-content: space-around;
+  width: 1200px;
+  margin: auto;
+  font-weight: bold;
+}
+#cart > div > img {
+  width: 20.33%;
+  border-radius: 10px;
+}
+#cart > div > button {
+  height: 30px;
+  float: bottom;
+}

@@ -1,0 +1,43 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#navbar {
+  display: flex;
+  background-color: black;
+  padding: 20px;
+  color: #fff;
+}
+.box1 {
+  /*border: 2px solid red;*/
+  width: 70%;
+}
+.box2 {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+#menu {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(4, auto);
+  grid-gap: 20px;
+  text-align: center;
+  width: 1200px;
+  margin: auto;
+}
+#menu > div {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#menu > div img {
+  width: 100%;
+}
+#menu > div button {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+}
